@@ -1,5 +1,9 @@
 # WujaSeed
 
+Seed contains simple service (interceptor-like) to inject token in http, Bootstrap with scss and simple routing created.
+
+# Angular README
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
 ## Development server
