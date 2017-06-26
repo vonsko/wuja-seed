@@ -1,6 +1,14 @@
 <h3>some users</h3>
-<ul class="list">
-  <li *ngFor="let user of some">
-    {{ user.name +' (' + user.id + ')' }}
-  </li>
-</ul>
+<div class="row">
+  <div class="col">
+    <ul class="list">
+      <li *ngFor="let user of some">
+        {{ user.name +' (' + user.id + ')' }}
+      </li>
+    </ul>
+  </div>
+  <div class="col">
+    <button class="btn btn-outline-primary" (click)="getSome()">meh</button>
+  </div>
+</div>
+

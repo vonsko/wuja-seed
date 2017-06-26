@@ -22,4 +22,9 @@ export class Test2Component implements OnInit {
     })
   }
 
+  getSome() {
+    this.service.getSomeTest().subscribe(res => {
+      console.log('meh', res);
+    })
+  }
 }
